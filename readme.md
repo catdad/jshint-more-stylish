@@ -1,4 +1,4 @@
-# jshint-stylish
+# jshint-more-stylish
 
 ![](screenshot.png)
 
@@ -10,7 +10,7 @@ Compared to the default reporter:
 ## Install
 
 ```
-$ npm install --save-dev jshint-stylish
+$ npm install --save-dev jshint-more-stylish
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ $ npm install --save-dev jshint-stylish
 ### JSHint CLI
 
 ```
-$ jshint --reporter=node_modules/jshint-stylish file.js
+$ jshint --reporter=node_modules/jshint-more-stylish file.js
 ```
 
 ### [gulp-jshint](https://github.com/spalger/gulp-jshint)
@@ -27,7 +27,7 @@ $ jshint --reporter=node_modules/jshint-stylish file.js
 gulp.task('default', function () {
 	gulp.src(['file.js'])
 		.pipe(jshint('.jshintrc'))
-		.pipe(jshint.reporter('jshint-stylish'));
+		.pipe(jshint.reporter('jshint-more-stylish'));
 });
 ```
 
@@ -37,7 +37,7 @@ gulp.task('default', function () {
 grunt.initConfig({
 	jshint: {
 		options: {
-			reporter: require('jshint-stylish')
+			reporter: require('jshint-more-stylish')
 		},
 		target: ['file.js']
 	}
