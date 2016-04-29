@@ -1,6 +1,6 @@
 {
   "name": "jshint-more-stylish",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "description": "Stylish reporter for JSHint",
   "license": "MIT",
   "author": "Kiril Vatev <vatev.1@gmail.com>",
