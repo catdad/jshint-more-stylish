@@ -1,10 +1,10 @@
 # jshint-more-stylish
 
-![](screenshot.png)
+![](assets/screenshot.png)
 
 Compared to the default reporter:
 
-![](screenshot-default-reporter.png)
+![](assets/screenshot-default-reporter.png)
 
 
 ## Install
