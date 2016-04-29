@@ -11,7 +11,10 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "jshint": "jshint",
+    "default-reporter": "jshint fixture.js",
+    "stylish-reporter": "jshint --reporter=index.js fixture.js"
   },
   "files": [
     "index.js"
