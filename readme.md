@@ -15,7 +15,6 @@ Compared to the default reporter:
 
 ![](assets/screenshot-default-reporter.png)
 
-
 ## Install
 
 ```
@@ -34,9 +33,9 @@ $ jshint --reporter=node_modules/jshint-more-stylish file.js
 
 ```js
 gulp.task('default', function () {
-	gulp.src(['file.js'])
-		.pipe(jshint('.jshintrc'))
-		.pipe(jshint.reporter('jshint-more-stylish'));
+    gulp.src(['file.js'])
+        .pipe(jshint('.jshintrc'))
+        .pipe(jshint.reporter('jshint-more-stylish'));
 });
 ```
 
@@ -44,12 +43,12 @@ gulp.task('default', function () {
 
 ```js
 grunt.initConfig({
-	jshint: {
-		options: {
-			reporter: require('jshint-more-stylish')
-		},
-		target: ['file.js']
-	}
+    jshint: {
+        options: {
+            reporter: require('jshint-more-stylish')
+        },
+        target: ['file.js']
+    }
 });
 
 grunt.loadNpmTasks('grunt-contrib-jshint');
